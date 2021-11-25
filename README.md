@@ -53,3 +53,9 @@ Aliasy S1:
 Aliasy D2:
 
 ![AD2](./Zrzuty_ekranu/14.JPG)
+
+Pytanie 1
+
+Nie można używać aliasów do komunikacji pomiędzy kontenerami przyłączonymi do dwóch różnych sieci ale pracujących w trybie mostu definiowanego przez użytkownika, ponieważ aliasy mają zasięg w jednej sieci i możliwa jest komunikacja tylko w tej samej sieci. Ping z kontenera o aliasie host1 do kontenera o aliasie host2 w innej sieci zakończył się niepowodzeniem a ping z kontenera o aliasie host1 do kontenera o aliasie apa1 który jest w tej samej sieci zakończył się sukcesem
+
+![ping](./Zrzuty_ekranu/15.JPG)
